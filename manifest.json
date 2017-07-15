@@ -1,0 +1,22 @@
+{
+  "name": "2015 Dashboard",
+  "description": "Team 2412 robot dashboard for 2017 FRC game S.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/background.min.js"]
+    }
+  },
+  "icons": {
+      "128": "assets/Steampunk RT.png"
+  },
+  "sockets": {
+      "tcp": {
+          "connect": "*"
+      }
+  },
+  "permissions": [
+      "system.display"
+  ]
+}
